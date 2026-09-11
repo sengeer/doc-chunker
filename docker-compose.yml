@@ -1,0 +1,11 @@
+services:
+  doc-chunker:
+    build: .
+    image: doc-chunker:latest
+    container_name: doc-chunker
+    restart: unless-stopped
+    ports:
+      - "8091:8091"
+    volumes:
+      - ./input:/data/input
+      - ./output:/data/output

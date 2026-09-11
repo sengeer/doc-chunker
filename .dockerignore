@@ -1,0 +1,17 @@
+.venv
+venv
+.git
+.pytest_cache
+__pycache__
+*.py[cod]
+*.egg-info
+.eggs
+dist
+build
+.DS_Store
+input/*
+output/*
+!input/.gitkeep
+!output/.gitkeep
+tests
+.cursor
